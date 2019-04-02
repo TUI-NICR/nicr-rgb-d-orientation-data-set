@@ -32,28 +32,23 @@ of any human for each Kinect2. During the record, we then used this model to
 compute mask images of the persons as shown in the image below. For each sample, 
 the mask image as well as the (depth aligned) color and depth images are part 
 of the data set. 
-<figure style="text-align: center;">
-    <img alt="recording-scene-color.png" src="img/recording-scene-color.png" height='190' />
-    <img alt="recording-scene-depth.png" src="img/recording-scene-depth.png" height='190' />
-    <img alt="recording-scene-mask.png" src="img/recording-scene-mask.png" height='190' />
-    <figcaption>Color and depth image of one sample in the data set as well as 
-    the extracted mask image. All three types of images are part of the 
-    data set.</figcaption>
-</figure>
+
+<img alt="recording-scene-color.png" src="img/recording-scene-color.png" height='190' /> <img alt="recording-scene-depth.png" src="img/recording-scene-depth.png" height='190' /> <img alt="recording-scene-mask.png" src="img/recording-scene-mask.png" height='190' />  
+Color and depth image of one sample in the data set as well as 
+the extracted mask image. All three types of images are part of the 
+data set.
+
 With the mask image it is possible to extract depth and color patches for each 
 sample. Furthermore, we also converted the depth and color images 
 into a colored point cloud of the persons. The images below show the resulting 
 data. Note: The extracted patches are not part of the data set, but they can be 
-easily created with the mask images 
-(see [Usage](#usage) section).
-<figure style="text-align: center;">
-    <img alt="patch-color.png" src="img/patch-color.png" height='190' />
-    <img alt="patch-depth.png" src="img/patch-depth.png" height='190' />
-    <img alt="patch-pcd.png" src="img/patch-pcd.png" height='190' />
-    <figcaption>Color and depth patch as well as the colored point cloud of 
-    one sample. While the point cloud is part of the data set, the patches 
-    need to be extracted with the color, depth and mask images.</figcaption>
-</figure>
+easily created with the mask images (see [Usage](#usage)).
+
+<img alt="patch-color.png" src="img/patch-color.png" height='190' /> <img alt="patch-depth.png" src="img/patch-depth.png" height='190' /> <img alt="patch-pcd.png" src="img/patch-pcd.png" height='190' />  
+Color and depth patch as well as the colored point cloud of 
+one sample. While the point cloud is part of the data set, the patches 
+need to be extracted with the color, depth and mask images.
+
 The final data set contains the color, depth and mask images of the persons as 
 well as two colored point clouds, one in full resolution and one filtered with a 
 6cm voxel grid filter, which approximately corresponds to the point density of a 
@@ -123,7 +118,7 @@ The source code in this package is published under BSD 3-Clause
 license, see [license file](LICENSE) for details. NOTE: This license only 
 covers the source code in this package, NOT the actual data set! 
 Extra Terms and Conditions apply to the data set, which must be aggreed to! See 
-[Get access section](#get-acsess-to-the-nicr-rgb-d-orientation-data-set) and 
+[Get access section](#get-access-to-the-nicr-rgb-d-orientation-data-set) and 
 the 
 [NICR RGB-D Orientation Data Set](https://www.tu-ilmenau.de/neurob/data-sets-code/rgb-d-orientation/)
 web page.
