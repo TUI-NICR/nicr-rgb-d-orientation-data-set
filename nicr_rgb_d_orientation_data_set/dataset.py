@@ -56,7 +56,7 @@ class RGBDOrientationDataset(object):
         Default image size to use. Should be either 'small' or 'large',
         default: 'small'.
     """
-    def __init__(self, dataset_basepath, set_name, default_size):
+    def __init__(self, dataset_basepath, set_name, default_size=DEFAULT_SIZE):
         assert set_name in SETS
 
         # store arguments
@@ -366,7 +366,7 @@ class Sample(object):
                    default_size=default_size)
 
 
-def load_set(dataset_basepath, set_name, default_size='small'):
+def load_set(dataset_basepath, set_name, default_size=DEFAULT_SIZE):
     """
     Load a specific set of the dataset.
 
