@@ -135,7 +135,7 @@ IEEE International Conference on Intelligent Robots and Systems (IROS) 2019
 @InProceedings{doe2019
   Title = {{Deep Orientation: Fast and Robust Upper Body Orientation Estimation for Mobile Robotic Applications}},
   Author = {Lewandowski, Benjamin and Seichter, Daniel and Wengefeld, Tim and Pfennig, Lennard and Drumm, Helge and Gross, Horst-Michael},
-  Booktitle = {Submitted to: IEEE International Conference on Intelligent Robots and Systems (IROS)},
+  Booktitle = {To be published in: IEEE International Conference on Intelligent Robots and Systems (IROS)},
   Year = {2019}
 }
 ```
@@ -150,14 +150,14 @@ The illustration of all the other persons is strictly prohibited.
 2. Install dependencies and python package (Python >= 3.6)
     ```bash
     # clone repository
-    git clone https://github.com/danielS91/nicr-rgb-d-orientation-data-set.git
+    git clone https://github.com/tui-nicr/nicr-rgb-d-orientation-data-set.git
     
     # option 1: install OpenCV 3 separately (optional) and data set package 
     pip install opencv-python==3.4.2.* [--user]
     pip install /path/to/this/repository [--user]
 
     # option 2: install data set package including OpenCV 3
-    pip install /path/to/this/repository[with_opencv] --user
+    pip install /path/to/this/repository[with_opencv] [--user]
     ```
 3. Use data set (examples)
     ```python
@@ -190,4 +190,4 @@ The illustration of all the other persons is strictly prohibited.
     fig.suptitle(f'Angle: {sample.orientation}°')
     fig.show()
     ```
-    For further examples, see [Deep Orientation Repository](https://github.com/danielS91/deep-orientation.git).
+    For further examples, see [Deep Orientation Repository](https://github.com/tui-nicr/deep-orientation.git).
