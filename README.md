@@ -128,7 +128,7 @@ If you use our data set in your work, please cite the following paper:
 Helge Drumm and Horst-Michael Gross
 *Deep Orientation: Fast and Robust Upper Body Orientation Estimation for Mobile 
 Robotic Applications.*
-Submitted to: 
+To be published in: 
 IEEE International Conference on Intelligent Robots and Systems (IROS) 2019
 
 ```bibtex
