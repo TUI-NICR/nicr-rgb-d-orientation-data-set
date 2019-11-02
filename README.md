@@ -105,13 +105,7 @@ Each of these subdirectories contains a directory for each person of that subset
 which holds the actual data.
 
 ## Get access to the NICR RGB-D Orientation Data Set
-The NICR RGB-D Orientation Data Set is available for academic use only. A 
-permanent stuff member of your institution must fill out the 
-[NICR-RGB-D-Orientation-Data-Set-Request](https://www.tu-ilmenau.de/neurob/data-sets-code/rgb-d-orientation/NICR-RGB-D-Orientation-Data-Set-Request.pdf)
-and sign the Terms and Conditions. Afterwards, send the request via E-Mail to 
-fg-nikr@tu-ilmenau.de. After checking your request a download link and a 
-password will be sent back to you.
-If you are a student you may have to ask your supervisor to sign.
+Visit the [NICR RGB-D Orientation Data Set](https://www.tu-ilmenau.de/neurob/data-sets-code/rgb-d-orientation/) web page.
 
 ## Source Code License and Citations
 The source code in this package is published under BSD 3-Clause 
