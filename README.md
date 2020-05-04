@@ -118,19 +118,18 @@ the
 web page.
 
 If you use our data set in your work, please cite the following paper:
->Benjamin Lewandowski, Daniel Seichter, Tim Wengefeld, Lennard Pfennig, 
-Helge Drumm and Horst-Michael Gross
-*Deep Orientation: Fast and Robust Upper Body Orientation Estimation for Mobile 
-Robotic Applications.*
-To be published in: 
-IEEE International Conference on Intelligent Robots and Systems (IROS) 2019
+>Lewandowski, B., Seichter, D., Wengefeld, T., Pfennig, L., Drumm, H., Gross, H.-M.
+*Deep Orientation: Fast and Robust Upper Body Orientation Estimation for Mobile Robotic Applications.*
+in: IEEE/RSJ Int. Conf. on Intelligent Robots and Systems (IROS), Macau, pp. 441-448, IEEE 2019
 
 ```bibtex
-@InProceedings{doe2019
-  Title = {{Deep Orientation: Fast and Robust Upper Body Orientation Estimation for Mobile Robotic Applications}},
-  Author = {Lewandowski, Benjamin and Seichter, Daniel and Wengefeld, Tim and Pfennig, Lennard and Drumm, Helge and Gross, Horst-Michael},
-  Booktitle = {To be published in: IEEE International Conference on Intelligent Robots and Systems (IROS)},
-  Year = {2019}
+@InProceedings{Lewandowski-IROS-2019,
+  author    = {Lewandowski, Benjamin and Seichter, Daniel and Wengefeld, Tim and Pfennig, Lennard and Drumm, Helge and Gross, Horst-Michael},
+  title     = {Deep Orientation: Fast and Robust Upper Body Orientation Estimation for Mobile Robotic Applications},
+  booktitle = {IEEE/RSJ Int. Conf. on Intelligent Robots and Systems (IROS), Macau},
+  year      = {2019},
+  pages     = {441--448},
+  publisher = {IEEE},
 }
 ```
 In any publication that uses the NICR RGB-D Orientation Data Set 
