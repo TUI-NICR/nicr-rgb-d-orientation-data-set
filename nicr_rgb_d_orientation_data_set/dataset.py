@@ -320,15 +320,15 @@ class Sample(object):
 
     @property
     def orientation(self):
-        return self.json['Degree']
+        return self.json['degree']
 
     @_none_to_default_size_decorator
     def get_roi_x(self, size=None):
-        return self.json['ROI_x'][size]
+        return self.json['roi_x'][size]
 
     @_none_to_default_size_decorator
     def get_roi_y(self, size=None):
-        return self.json['ROI_y'][size]
+        return self.json['roi_y'][size]
 
     @staticmethod
     def extract_patch(img, roi_y, roi_x):
